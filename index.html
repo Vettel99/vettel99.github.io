@@ -1269,10 +1269,23 @@ body::before {
   .hover-darken img {
     transition: filter 0.2s ease /* Faster transition for mobile */
   }
+
+  h3, h4 {
+  text-align: center;
+}
 }
 
+#learn_more_button {
+  text-transform: lowercase;
+  font-size: 1rem;
+  /* font-family: 'League Spartan', sans-serif !important;  */
+  /* font-family: 'CY GROTESK GRAND', sans-serif !important; */
+ /* font-family: 'Glacial Indifference', sans-serif;  */
+}
 
-
+small {
+  font-size: 1rem;
+}
 
   </style>
 </head>
@@ -1282,7 +1295,7 @@ body::before {
     <div class="container" style="padding-bottom: 0px;">
       <a class="navbar-brand" href="#"> <img src="assets/images/logo.svg" alt="SIM DAC Club Logo" width="45" height="30" class="d-inline-block align-top mr-2"> SIM DAC</a>
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#learn_more">Learn More</a></li> 
+          <li class="nav-item"><a class="nav-link" href="#learn_more">L<small id="learn_more_button">earn</small> M<small id="learn_more_button">ore</small></a></li> 
       
     </div>
   </nav>
@@ -1371,7 +1384,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>Who Are We?</h3>
-          <img src="assets/images/about1.jpeg" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/about1.jpeg" alt="Club activities photo" class="timeline-image">
           <p>We are students from SIM Data Analytics Club.<br><br>We share knowledge learned from our seniors and other areas we have explored on our own. We conduct peer-to-peer workshops and support like-minded students in their learning of data analytics.<br><br>Many EXCO and subcommittee members also double up as interns at notable companies such as Grab, foodpanda, the Ministry of Manpower, EY, NCS, Shopback, and SAP etc.</p>
         </div>
       </div>
@@ -1379,7 +1392,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content hidden">
           <h3>What Do We Do?</h3>
-          <img src="assets/images/about2.jpeg" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/about2.jpeg" alt="Club activities photo" class="timeline-image">
           <p>At DAC, we provide 2 structured programs: DACademy and DSAcademy — nurturing data talent through immersive learning experiences.<br><br>The Data Analytics Academy (DACademy) and the Data Science Academy (DSAcademy). Both academies operate concurrently, allowing our carefully selected subcommittee members—100 out of 200 applicants—to engage deeply in one chosen program.<br><br>Our academy sessions are held twice a week for three hours each over the course of three months. Led by experienced EXCOs, these sessions ensure our members receive high-quality education, equipping them to tackle real-world challenges in the data field.</p>
         </div>
       </div>
@@ -1387,7 +1400,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>Data Analytics Academy (DACademy)</h3>
-          <img src="assets/images/about3.jpg" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/about3.jpg" alt="Club activities photo" class="timeline-image">
           <p>Foundation Building: Prepares members with essential analytics skills.<br><br>Core Curriculum: Covers Python, SQL, Tableau, and more.<br><br>Structured Learning Path: Progresses from basics to NLP, ML techniques etc.<br><br>Workshop Facilitation: Members enhance learning by conducting public workshops.<br><br>Skill Application: Members apply knowledge in internal & external projects.</p>
         </div>
       </div>
@@ -1395,7 +1408,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content hidden">
           <h3>Data Science Academy (DSAcademy)</h3>
-          <img src="assets/images/about4.jpeg" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/about4.jpeg" alt="Club activities photo" class="timeline-image">
           <p>Skill Enhancement: Deepens and advances programming competencies.<br><br>Advanced Curriculum: Focus on deep learning, advanced SQL, and Gen AI.<br><br>Project-Based Learning: Tackles real-world challenges and case studies.<br><br>Workshop Facilitation: Members enhance learning by conducting public workshops.<br><br>Skill Application: Members apply knowledge in internal & external projects.</p>
         </div>
       </div>
@@ -1403,7 +1416,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>Check Out <a href="https://github.com/DACSIM">DACSIM's GitHub!</a></h3>
-          <img src="assets/images/about5.png" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/about5.png" alt="Club activities photo" class="timeline-image">
           <p>Explore our projects and resources on our GitHub repository, where you can view the detailed curriculum materials used in DACademy and DSAcademy. This is where subcommittee members download the lesson content that shapes their learning experience.</p>
         </div>
       </div>
@@ -1426,7 +1439,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content">
           <h3>DACademy Curriculum Highlights - EDA + Tableau</h3>
-          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-003_Intro_to_Tableau" target="_blank" class="hover-darken"><img src="assets/images/dac1.png" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-003_Intro_to_Tableau" target="_blank" class="hover-darken"><img src="assets/images/dac1.png" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This session focuses on integrating Exploratory Data Analysis (EDA) techniques with Tableau software to create advanced data visualizations. Participants will learn how to analyze datasets to uncover patterns and insights using Python, followed by leveraging Tableau's visualization capabilities to present findings effectively.<br><br>The tutorial emphasizes the synergy between Python's analytical power and Tableau's user-friendly visualization tools, enabling participants to craft compelling data narratives.</p>
         </div>
       </div>
@@ -1434,7 +1447,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content">
           <h3>Intro To Machine Learning</h3>
-          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-006_Machine_Learning" target="_blank" class="hover-darken"><img src="assets/images/dac2.jpeg" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-006_Machine_Learning" target="_blank" class="hover-darken"><img src="assets/images/dac2.jpeg" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This introductory course offers a comprehensive overview of machine learning principles and techniques. Spanning multiple lectures, it covers both theoretical foundations and practical applications, guiding participants from basic concepts to more advanced machine learning methodologies.<br><br>The curriculum is designed to equip learners with the skills necessary to implement machine learning models, understand their underlying algorithms, and apply them to real-world data scenarios.</p>
         </div>
       </div>
@@ -1442,7 +1455,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content">
           <h3>Web Scraping</h3>
-          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-007_Web_Scraping" target="_blank" class="hover-darken"><img src="assets/images/dac3.png" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-007_Web_Scraping" target="_blank" class="hover-darken"><img src="assets/images/dac3.png" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This crash course delves into web scraping techniques using Python. Participants will learn how to extract data from websites efficiently, understanding the legal and ethical considerations involved.<br><br>The session covers various tools and libraries essential for web scraping, enabling learners to gather and process web data for analysis and application in data-driven projects. </p>
         </div>
       </div>
@@ -1450,7 +1463,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content">
           <h3>Intro to NLP</h3>
-          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-008_Intro_To_NLP" target="_blank" class="hover-darken"><img src="assets/images/dac4.png" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DAC-Curriculum/tree/main/DAC-008_Intro_To_NLP" target="_blank" class="hover-darken"><img src="assets/images/dac4.png" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This course provides an introduction to Natural Language Processing (NLP), exploring how machines can understand and interpret human language. Through a series of lectures, participants will learn about fundamental NLP techniques, including text preprocessing, sentiment analysis, and language modeling.<br><br>The curriculum aims to equip learners with the skills to apply NLP methods to various textual data, enhancing their ability to develop applications that interact seamlessly with human language. </p>
         </div>
       </div>
@@ -1465,7 +1478,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content">
           <h3>DSAcademy Curriculum Highlights - Intro To Generative AI</h3>
-          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-006_Intro_to_GAI" target="_blank" class="hover-darken"><img src="assets/images/dsa1.jpeg" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-006_Intro_to_GAI" target="_blank" class="hover-darken"><img src="assets/images/dsa1.jpeg" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This module provides an in-depth understanding of Generative Artificial Intelligence (AI), focusing on the theoretical foundations and practical coding applications of generative models. It covers various generative models, their architectures, and training methodologies.<br><br>The curriculum emphasizes hands-on experience, enabling learners to implement generative models to create new data instances similar to a given dataset. Key topics include Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and their applications in data augmentation, image synthesis, and more.</p>
         </div>
       </div>
@@ -1473,7 +1486,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content">
           <h3>Emotion Recognition Using Neural Networks</h3>
-          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-011_Deep_Learning_%5B3%5D" target="_blank" class="hover-darken"><img src="assets/images/dsa2.jpeg" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-011_Deep_Learning_%5B3%5D" target="_blank" class="hover-darken"><img src="assets/images/dsa2.jpeg" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This module covers training a Convolutional Neural Network (CNN) to recognize emotions from human facial expressions. The CNN is trained on labeled face datasets, using preprocessing steps such as resizing, normalization, and grayscale conversion for optimal performance.<br><br>After training, the model is integrated into a real-time application that uses a webcam to capture live images, detect faces, and predict emotions. Key challenges like varying lighting, occlusions, and facial angles are addressed through techniques like data augmentation and fine-tuning. By the end, learners will have developed a fully functional emotion recognition system combining machine learning and computer vision.</p>
         </div>
       </div>
@@ -1481,7 +1494,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content">
           <h3>Reinforcement Learning: Training an RL Agent to Play Flappy Bird</h3>
-          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-013_Deep_Learning%20_%5B5%5D" target="_blank" class="hover-darken"><img src="assets/images/dsa3.png" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-013_Deep_Learning%20_%5B5%5D" target="_blank" class="hover-darken"><img src="assets/images/dsa3.png" alt="Curriculum content photo" class="timeline-image"></a>
           <p>In this practical session, learners are introduced to Reinforcement Learning (RL) concepts by training an RL agent to play the game Flappy Bird. The lesson covers the fundamentals of RL, including the agent-environment interaction, reward systems, and policy optimization.<br><br>Participants will implement algorithms such as Q-learning or Deep Q-Networks (DQNs) to enable the agent to learn optimal actions through trial and error, enhancing its performance in the game over time.</p>
         </div>
       </div>
@@ -1489,7 +1502,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content">
           <h3>Data Engineering Pipeline: Analyzing and Predicting Brain Tumors</h3>
-          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-016_Advanced_SQL_%5B4%5D" target="_blank" class="hover-darken"><img src="assets/images/dsa4.png" alt="Timeline Image" class="timeline-image"></a>
+          <a href="https://github.com/DACSIM/DSA-Curriculum/tree/main/DSA-016_Advanced_SQL_%5B4%5D" target="_blank" class="hover-darken"><img src="assets/images/dsa4.png" alt="Curriculum content photo" class="timeline-image"></a>
           <p>This comprehensive module guides learners through building a data engineering pipeline that integrates SQL, deep learning, and generative AI techniques to analyze and predict brain tumors from a dataset. The pipeline involves data ingestion, cleaning, and transformation using SQL for efficient querying and management.<br><br>Subsequently, deep learning models are employed for predictive analysis, identifying patterns indicative of brain tumors. Generative AI is utilized for data augmentation, enhancing model robustness. The lesson emphasizes the end-to-end workflow, from raw data to actionable insights, highlighting best practices in data engineering and machine learning integration.</p>
         </div>
       </div>
@@ -1505,7 +1518,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>UOB Project Collab</h3>
-          <img src="assets/images/collab1.jpg" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/collab1.jpg" alt="Collaboration Image" class="timeline-image">
           <p>Scope of Project: Utilizing NLP, topic modeling, and data visualization, this project analyzes the financial loan market and presents insights via an interactive dashboard.</p>
         </div>
       </div>
@@ -1513,7 +1526,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content hidden">
           <h3>FDM Project Collab</h3>
-          <img src="assets/images/collab2.png" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/collab2.png" alt="Collaboration Image" class="timeline-image">
           <p>Scope of Project: Leveraging Selenium and Sentiment Analysis, this project analyzes over 1K job listings, delivering insights to enhance FDM’s graduate program listings.</p>
         </div>
       </div>
@@ -1521,7 +1534,7 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>ST Engineering Project Collab</h3>
-          <img src="assets/images/collab3.png" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/collab3.png" alt="Collaboration Image" class="timeline-image">
           <p>Scope of Project: Utilizing Web Scraping and NLP, this project analyzes Chinese media sites, delivering insights that inform strategic decisions for market positioning.</p>
         </div>
       </div>
@@ -1529,7 +1542,7 @@ body::before {
       <div class="timeline-item right">
         <div class="timeline-content hidden">
           <h3>Intercontinental Exchange Project Collab</h3>
-          <img src="assets/images/collab4.jpg" alt="Timeline Image" class="timeline-image">
+          <img src="assets/images/collab4.jpg" alt="Collaboration Image" class="timeline-image">
          <p>Scope of Project: Implemented unsupervised learning models to cluster emails for detecting Data Loss Prevention (DLP) violations, enhanced detection through data analysis of URLs, headers, and attachments using tools like the IP Quality Score API, and streamlined review processes with feedback-driven optimization.</p>
         </div>
       </div>
@@ -1537,12 +1550,20 @@ body::before {
       <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>AWS Workshop Collab</h3>
-          <img src="assets/images/collab5.png" alt="Timeline Image" class="timeline-image">
-          <p>Subcomittee members gained expertise in understanding and bulding data pipelines, getting hands-on experience with AWS services, and were able to network with AWS professionals.</p>
+          <img src="assets/images/collab5.jpeg" alt="Collaboration Image" class="timeline-image">
+          <p>Subcomittee members gained expertise in understanding and bulding data pipelines, getting hands-on experience with AWS services such as Quicksight and Bedrock, and were able to network with AWS professionals.</p>
         </div>
       </div>
 
       <div class="timeline-item right">
+        <div class="timeline-content hidden">
+          <h3>Microsoft Hackathon Collab</h3>
+          <img src="assets/images/collab6.jpeg" alt="Collaboration Image" class="timeline-image">
+          <p>SIM Data Analytics Club proudly partnered with Microsoft to host Singapore’s first-ever Power Platform Hackathon—Microsoft’s inaugural school-led collaboration on Power Platform.<br><br>Over two dynamic days, participants first honed their skills in hands-on sessions, quickly building a website, dashboard, and bot using Power Apps. The event then advanced to real-world problem solving, where teams leveraged tools like Power Apps, Power BI, and Power Automate to transform innovative ideas into functional prototypes.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
         <div class="timeline-content hidden">
           <h3>External Collaboration Timeline</h3>
           <p>October to November - Collaboration Pitch and Defining Project Terms:<br>Showcase vision and explore collaboration opportunities while establishing project goals, expectations, and scope collaboratively.<br><br>December - Project Administration Coordination:<br> Finalize administrative tasks such as gathering information, datasets, NDAs, and agreements to ensure a smooth project kickoff.<br><br>January to March - Project Initiation & Development:<br>Kickoff meeting in the second week of January introduces teams and aligns on execution plans. Regular updates and checkpoints will be scheduled throughout the project duration.<br><br>March - Project Completion:<br>Deliver final results and insights during a wrap-up meeting. Present outcomes, assess how objectives were met, and provide actionable recommendations.</p>
@@ -1559,8 +1580,8 @@ body::before {
       <div class="timeline-item left">
 
         <div class="timeline-content">
-          <h3>Our 2024-2025 EXCO Team</h3>
-          <a href="https://www.linkedin.com/in/junyeow/" target="_blank" class="hover-darken"><img src="assets/images/president.jpeg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">Our 2024/25 EXCO Team</h3>
+          <a href="https://www.linkedin.com/in/junyeow/" target="_blank" class="hover-darken"><img src="assets/images/president.jpeg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Jun Yeow Yeo</h4>
           <p style="text-align: center;">President</p>
         </div>
@@ -1569,8 +1590,8 @@ body::before {
 
       <div class="timeline-item right">
         <div class="timeline-content">
-          <h3>2024-2025 EXCO</h3>
-          <a href="https://www.linkedin.com/in/cherylongc/" target="_blank" class="hover-darken"><img src="assets/images/vice_president.jpg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">2024/25 EXCO</h3>
+          <a href="https://www.linkedin.com/in/cherylongc/" target="_blank" class="hover-darken"><img src="assets/images/vice_president.jpg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Cheryl Ong</h4>
           <p style="text-align: center;">Vice President</p>
         </div>
@@ -1578,8 +1599,8 @@ body::before {
 
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h3>2024-2025 EXCO</h3>
-          <a href="https://www.linkedin.com/in/genevieve-chin-wan-qi-992b54295/" target="_blank" class="hover-darken"><img src="assets/images/events_director.jpg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">2024/25 EXCO</h3>
+          <a href="https://www.linkedin.com/in/genevieve-chin-wan-qi-992b54295/" target="_blank" class="hover-darken"><img src="assets/images/events_director.jpg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Genevieve Chin Wan Qi</h4>
           <p style="text-align: center;">Events Director</p>
         </div>
@@ -1587,8 +1608,8 @@ body::before {
 
       <div class="timeline-item right">
         <div class="timeline-content">
-          <h3>2024-2025 EXCO</h3>
-          <a href="https://www.linkedin.com/in/kaavya-m/" target="_blank" class="hover-darken"><img src="assets/images/marketing_director.jpg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">2024/25 EXCO</h3>
+          <a href="https://www.linkedin.com/in/kaavya-m/" target="_blank" class="hover-darken"><img src="assets/images/marketing_director.jpg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Kaavya Murugan</h4>
           <p style="text-align: center;">Marketing Director</p>
         </div>
@@ -1596,8 +1617,8 @@ body::before {
 
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h3>2024-2025 EXCO</h3>
-          <a href="https://www.linkedin.com/in/luqm4n/" target="_blank" class="hover-darken"><img src="assets/images/partnerships_director.jpeg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">2024/25 EXCO</h3>
+          <a href="https://www.linkedin.com/in/luqm4n/" target="_blank" class="hover-darken"><img src="assets/images/partnerships_director.jpeg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Luqman Nurhakim</h4>
           <p style="text-align: center;">Partnerships Director</p>
         </div>
@@ -1605,8 +1626,8 @@ body::before {
 
       <div class="timeline-item right">
         <div class="timeline-content">
-          <h3>2024-2025 EXCO</h3>
-          <a href="https://www.linkedin.com/in/jarylliewjw/" target="_blank" class="hover-darken"><img src="assets/images/operations_director.jpeg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">2024/25 EXCO</h3>
+          <a href="https://www.linkedin.com/in/jarylliewjw/" target="_blank" class="hover-darken"><img src="assets/images/operations_director.jpeg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Jaryl Liew</h4>
           <p style="text-align: center;">Operations Director</p>
         </div>
@@ -1614,15 +1635,15 @@ body::before {
 
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h3>2024-2025 EXCO</h3>
-          <a href="https://www.linkedin.com/in/abhishek-bhadkamkar-45ba59294/" target="_blank" class="hover-darken"><img src="assets/images/finance_director.jpeg" class="timeline-image circle"></a>
+          <h3 style="text-align: center;">2024/25 EXCO</h3>
+          <a href="https://www.linkedin.com/in/abhishek-bhadkamkar-45ba59294/" target="_blank" class="hover-darken"><img src="assets/images/finance_director.jpeg" alt="EXCO selfie" class="timeline-image circle"></a>
           <h4 class="timeline_subheadings" style="text-align: center;">Abhishek Bhadkamkar</h4>
           <p style="text-align: center;">Finance Director</p>
         </div>
       </div>
 
     </div>
-  </div>
+  </div> 
 
   <!-- Contact Section -->
   <div id="tab-6" class="tab-content">
@@ -1786,11 +1807,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const initialTab = tabs[0].dataset.tab;
   activateTabContent(initialTab);
 });
-
-
-
-
-
-  </script>
+</script>
 </body>
 </html>
